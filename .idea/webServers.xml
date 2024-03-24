@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d0b04173-55c2-45a7-b228-bf5f3abbc382" name="traganarru">
+        <fileTransfer rootFolder="/tartalo03/users/udixa/qa_applications1" accessType="SFTP" host="traganarru.ixa.eus" port="22" sshConfigId="a55d6177-d00a-408f-b577-65af45a07ef7" sshConfig="agarcia794@traganarru.ixa.eus:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
