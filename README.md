@@ -31,7 +31,6 @@ The structure of the repository is the following:
     ├── combine.py                            # Script used to merge the training data from COVID-QA and SQuAD together
     ├── qa_finetuning.py                      # Original script used to fine-tune and evaluate the models
     ├── qa_finetuning_hyp_search.py           # Script that performs a search of the best hyperparameters for a model
-    ├── train.slurm                           # Slurm launcher for the fine-tuning task
     └── train_dev_test.py                     # Given a dataset, split it into a train, dev and test splits                               
 
 ## Results
