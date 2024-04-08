@@ -426,7 +426,6 @@ def main(
 
         model = AutoModelForQuestionAnswering.from_pretrained(model_path)
 
-        # TODO: MIRAR POSIBLES TRAINING ARGUMENTS
         args = TrainingArguments(
             str(output_folder),
             evaluation_strategy="epoch",
@@ -455,7 +454,6 @@ def main(
 
         trainer.train()
 
-        # TODO: REVISAR Y ACABAR LA EVALUACIÓN
         # -------------------------------------------
         # 4.- EVALUATION
         # -------------------------------------------
