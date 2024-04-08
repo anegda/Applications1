@@ -6,7 +6,7 @@ The dataset utilized in this project is COVID-QA, a QA dataset structured in the
 
 ## Scripts
                                                                
-    ├── data                                                           
+    ├── data                                  # Folder with the COVID-QA data                                                   
     │   └── COVID-QA.json                                          
     │   ├── data.json                                       
     │   ├── dev.json   
